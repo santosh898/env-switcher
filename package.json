@@ -1,0 +1,15 @@
+{
+  "name": "env-switcher",
+  "version": "1.0.0",
+  "description": "Switch between regions based env configs",
+  "main": "switch.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "switch:gb": "node switch.js gb",
+    "switch:us": "node switch.js us"
+  },
+  "devDependencies": {
+    "envfile": "^6.17.0"
+  }
+}
