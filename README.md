@@ -32,7 +32,7 @@ module.exports = [
 
 ### Edit .env files
 
-Create/edit two env files namely `.env.gb` and `.env.us` for corresponding enviroments. and add all the variables that needs to be **replaced** in the target repos.
+Create/edit two env files namely `.gb.env` and `.us.env` for corresponding enviroments. and add all the variables that needs to be **replaced** in the target repos.
 
 **Note: Any variable that's listed in these env files will be reflected in the target repos only if that variable already exists in that repo's env file. This helps us to have all the region based variables related to all the repos in these two files only.**
 
