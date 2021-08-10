@@ -52,6 +52,10 @@ AWS_BUCKET=uk-west-2
 
 The above will not pollute any repo that doesn't have those specific keys.
 
+## Known Issues
+
+Using this on an env file will make the file lose all it's empty lines, bacause technically we are re-writing the whole file.
+
 ## Usage
 
 ```bash
